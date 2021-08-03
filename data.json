@@ -1,0 +1,56 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=709&q=80",
+      "name": "Brandon Carlos ",
+      "email": "brandondzn15@gmail.com",
+      "school": "3",
+      "charge": "45",
+      "birth": "2000-06-18",
+      "created_at": 1628011345806
+    }
+  ],
+  "teachers": [
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=709&q=80",
+      "name": "Mario Yoshi",
+      "birth": 961286400000,
+      "education": "doutorado",
+      "classes": "distancia",
+      "services": "Mario, bros, crash, island",
+      "created_at": 1626718097880
+    },
+    {
+      "id": 6,
+      "avatar_url": "http://www.google.com.br",
+      "name": "Mario bros",
+      "birth": 961286400000,
+      "education": "mestrado",
+      "classes": "presencial",
+      "services": "programação",
+      "created_at": 1628015167576
+    },
+    {
+      "id": 7,
+      "avatar_url": "http://www.google.com.br",
+      "name": "Brandon Carlos",
+      "birth": "2000-06-18",
+      "education": "doutorado",
+      "classes": "presencial",
+      "services": "Informática, programação",
+      "created_at": 1628015220818
+    },
+    {
+      "id": 8,
+      "avatar_url": "http://www.google.com.br",
+      "name": "Brandon Carlos Flores Marzo",
+      "birth": "2000-06-18",
+      "education": "doutorado",
+      "classes": "distancia",
+      "services": "Informática, programação",
+      "created_at": 1628015384096
+    }
+  ]
+}

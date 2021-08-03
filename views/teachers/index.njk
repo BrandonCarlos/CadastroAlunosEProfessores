@@ -1,0 +1,30 @@
+{% extends 'layout.njk' %}
+{% block content %}
+    <div class="card unico">
+            <a class="new" href="/teachers/create">Novo</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome completo</th>
+                    <th>Acompanhamento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            {% for teacher in teachers %}
+            <tbody>
+                <tr>
+                    <td><span style="background-image: url({{teacher.avatar_url}})"></span>
+                    {{teacher.name}}</td>
+                    <td>
+                        {% for service in teacher.services.split(',') %}
+                            <span class="services">{{service}}</span>
+                        {% endfor %}
+                    </td>
+                    <td><a href="/teachers/{{teacher.id}}">Ver</a></td>
+                </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}

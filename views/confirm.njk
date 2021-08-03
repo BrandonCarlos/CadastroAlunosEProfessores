@@ -1,0 +1,14 @@
+{% block script %}
+
+    <script>
+        const deletion = document.querySelector('.deletion');
+        
+        deletion.addEventListener('submit', (e) => {
+            const resposta = confirm('Deseja realmente excluir o usuário?');
+            if(!resposta) {
+                e.preventDefault();
+            }
+        })
+    </script>
+
+{% endblock %}
